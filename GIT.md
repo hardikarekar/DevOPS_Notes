@@ -14,3 +14,9 @@ git remote add origin https://github.com/hardikarekar/DevOPS_Notes
 ```bash
 git remote -v
 ```
+## Push Your Code
+* Add and commit your files
+```bash
+git add .
+
+```
