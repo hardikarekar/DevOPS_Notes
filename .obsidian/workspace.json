@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "395b025451ad5ff6",
+    "type": "split",
+    "children": [
+      {
+        "id": "12905b50ab5f060e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "234fe91e532ca195",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "9fe9c7734bd1172b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nginx.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nginx"
+            }
+          },
+          {
+            "id": "a79ac11a5bf5973c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GIT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GIT"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9cb1f3f07eebe0cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "293b4edaafcea2fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "919d566daec24c0e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "963e7d27bd29c988",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "419637fca4b70be2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "636cb5dc9b321955",
+    "type": "split",
+    "children": [
+      {
+        "id": "34bad40614bed48f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6aaf6bd844d03f58",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GIT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for GIT"
+            }
+          },
+          {
+            "id": "7d07d413a8921e9a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GIT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from GIT"
+            }
+          },
+          {
+            "id": "0de40ba09a673431",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e8b57c900bdf198c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GIT.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of GIT"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a79ac11a5bf5973c",
+  "lastOpenFiles": [
+    "Nginx.md",
+    "GIT.md",
+    "Welcome.md"
+  ]
+}
