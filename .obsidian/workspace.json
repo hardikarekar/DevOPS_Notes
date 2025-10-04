@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT.md",
+                "file": "20 Sept, 2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "20 Sept, 2025"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "636cb5dc9b321955",
@@ -171,8 +172,8 @@
   },
   "active": "6dd7f7fbbd84d76f",
   "lastOpenFiles": [
-    "20 Sept, 2025.md",
     "GIT.md",
+    "20 Sept, 2025.md",
     "Nginx.md",
     "DEVOPS Lectures/~$pt_20_2025.docx",
     "DEVOPS Lectures/Sept_20_2025.docx",
