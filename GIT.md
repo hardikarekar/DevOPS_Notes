@@ -18,5 +18,9 @@ git remote -v
 * Add and commit your files
 ```bash
 git add .
+git commit -m "initial commit"
+```
+* Push to GitHub
+```bash
 
 ```

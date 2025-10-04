@@ -1,0 +1,88 @@
+   3rd TIER PROJECT PART 2 - APPSERVER (NODE JS)
+   
+step 1 - installing nodejs---
+
+apt update -y 
+
+apt install  nodejs
+  
+apt  install  npm  
+
+
+step 2 -- clone the github repo in myapps folder-----
+
+cd /opt
+
+mkdir myapps
+
+cd /myapps
+
+git clone https://github.com/SadhixInstute/Sadhixapp.git
+
+apt install unzip -y
+
+unzip sadhixapp
+
+cd sadhixapp 
+
+npm install 
+
+
+step 3 ------ starting the nodejs 
+
+now telnet port 3306 with db's private ip
+
+go to sadhixapp--
+
+vi /src/app.js
+
+come to line number 10 -- const connection = mysql.createConnection({---
+ make chnges in - (host and password)
+ 
+  host: '172.31.38.28',  (db's private ip )
+  user: 'root',
+  password: 'Password@1234', (db's passwd you have set )
+  database: 'sadhixdb'
+ 
+ save and exit 
+  
+step 4 ---- to start appserver you need to grant permission in db 
+
+go to db server 
+
+mysql -u root -p 
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'172.31.44.62' IDENTIFIED BY 'Password@1234'
+                                    (appservers prv ip)             (db's passwd)
+
+
+SELECT host, user, authentication_string FROM mysql.user;
+
+flush privileges;
+
+quit;
+
+systemctl restart mariadb 
+
+
+step 5 ---- come to app server 
+
+cd /opt/myapps/sadhixapp
+
+npm start 
+
+database will connect and application starts
+
+step 6 --- allow port 300 on appserver 
+
+go to sg 
+
+add inbound rule 
+ open port 3000 
+ 
+thats it 
+
+step 7 ----acess from webserver
+
+http://13.60.81.154:3000/
+ -------------------------------------------------------------------------									

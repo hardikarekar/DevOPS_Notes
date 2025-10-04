@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "234fe91e532ca195",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "9fe9c7734bd1172b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nginx.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nginx"
-            }
-          },
-          {
-            "id": "a79ac11a5bf5973c",
+            "id": "6dd7f7fbbd84d76f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,8 +21,7 @@
               "title": "GIT"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,10 +169,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "a79ac11a5bf5973c",
+  "active": "6dd7f7fbbd84d76f",
   "lastOpenFiles": [
-    "Nginx.md",
+    "20 Sept, 2025.md",
     "GIT.md",
+    "Nginx.md",
+    "DEVOPS Lectures/~$pt_20_2025.docx",
+    "DEVOPS Lectures/Sept_20_2025.docx",
+    "DEVOPS Lectures",
+    "New folder",
     "Welcome.md"
   ]
 }
